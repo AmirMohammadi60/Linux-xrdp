@@ -5,7 +5,7 @@ pipeline {
     stage('Install xrdp') {
       steps {
         sh 'sudo -t apt-get update'
-        sh 'sudo apt-get install xrdp -y'
+        sh 'sudo -t apt-get install xrdp -y'
       }
     }
     
