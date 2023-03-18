@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Install xrdp') {
       steps {
-        sh 'echo "Amir1225601225" | sudo -S apt-get update'
+        sh 'echo "1225" | sudo -S apt-get update'
         sh 'sudo -t apt-get install xrdp -y'
       }
     }
